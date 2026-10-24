@@ -1,17 +1,17 @@
-/* === RESET === */
+
 * {
   box-sizing: border-box;
 }
 
-/* === BODY === */
+
 body {
   margin: 0;
-  padding-top: 60px; /* kompensasi navbar fixed */
+  padding-top: 60px;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
 }
 
-/* === NAVBAR (position: fixed) === */
+
 .navbar {
   position: fixed;
   top: 0;
@@ -42,16 +42,15 @@ body {
   padding: 0 16px;
 }
 
-/* === SUB-JUDUL KATEGORI (position: sticky) === */
 .kategori {
   position: sticky;
-  top: 60px; /* menempel tepat di bawah navbar */
+  top: 60px; 
   margin: 0;
   padding: 12px 0;
   background-color: #f4f4f4;
 }
 
-/* === KARTU PRODUK (position: relative sebagai induk badge) === */
+
 .kartu {
   position: relative;
   display: inline-block;
@@ -66,12 +65,11 @@ body {
   transition: box-shadow 0.3s;
 }
 
-/* === HOVER KARTU === */
+
 .kartu:hover {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
 }
 
-/* === GAMBAR (overflow: hidden + border-radius) === */
 .gambar {
   overflow: hidden;
   border-radius: 10px;
@@ -82,7 +80,7 @@ body {
   width: 100%;
 }
 
-/* === BADGE (position: absolute) === */
+
 .badge {
   position: absolute;
   top: 8px;
@@ -94,7 +92,7 @@ body {
   border-radius: 4px;
 }
 
-/* === TOMBOL BELI === */
+
 .tombol {
   padding: 8px 16px;
   border: none;
